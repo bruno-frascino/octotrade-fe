@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import { PrimeReactProvider } from 'primereact/api';
 import { Button } from 'primereact/button';
+import "primereact/resources/themes/lara-light-blue/theme.css";
+
 
 function App() {
   return (
@@ -11,7 +13,8 @@ function App() {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.tsx</code> and save to reload.
+            {/* Edit <code>src/App.tsx</code> and save to reload.
+             */}
             <Button label="Prime React Button" />
           </p>
           <a
